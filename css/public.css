@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	font-size: 62.5%;
+}
+ul,li,tr,th,td {
+	list-style: none;
+}
+input,tr,th,td {
+	outline: none;
+	border: none;
+}
+table {
+    border-collapse: collapse;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+.bg-color { background-color: #272626; }
+.fr { float: right; }
+.fl { float: left; }
+.clear { clear: both; }
+.clearfix:after {
+	content: '';
+	display: inline-block;
+	clear:both;
+}
+.x1 {
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    width: 4rem;
+}
+
+.container {
+	max-width: 1000px;
+	min-height: 470px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 125px;
+}
+
+.header-top{
+	height: 35px;
+	line-height: 35px;
+	background-color: #ebebeb;
+	color: #666666;
+	padding: 0px 90px 0px 60px;
+}
+.header-top .right a {
+	color: #444444;
+	font-size: 1.4rem;
+}
+.header-top .left{
+	font-size: 1.4rem;
+}
+.pc_header {
+	width: 100%;
+	height: 90px;
+	background: #000000;
+	line-height: 90px;
+}
+.header {
+	height: 90px;
+	margin: 0 60px;
+}
+.logo {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.phoneMenu {
+	display: none;
+}
+.phone_nav {
+	display: none;
+	width: 0;
+	height: 0;
+}
+.phone_nav a {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: #3FBABD;
+	line-height: 40px;
+	text-align: center;
+}
+.phone_nav a.select {
+	color: #fff;
+}
+.header_nav {
+	float: right;
+	height: 90px;
+}
+.header_nav a {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: #01a293;
+	margin: 0 30px;
+}
+.header_nav a:hover {
+	color: #fff;
+}
+.header_nav a.select {
+	color: #fff;
+}
+.btn {
+	width: 100%;
+}
+.btn p {
+	width: 70%;
+	height: 8rem;
+	line-height: 8rem;
+	text-align: center;
+	color: #ffffff;
+	font-size: 3.2rem;
+	background-color: #1a83d4;
+	margin: 10% auto;
+	border-radius: 5px;
+}
+.container .header-tit span {
+	display: inline-block;
+}
+.container .header-tit span.fl {
+	color: #666666;
+	font-size: 2rem;
+}
+.container .header-tit span.fr {
+	color: #333333;
+	font-size: 1.8rem;
+	padding-left: 5px;
+	position: relative;
+}
+.container .header-tit span.fr img {
+	position: absolute;
+	right: 100%;
+	top: 32%;
+}
+
+.container .header-tit {
+	height: 6.5rem;
+	line-height: 6.5rem;
+	font-size: 2.5rem;
+	color: #333333;
+	text-align: center;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+footer {
+	width: 100%;
+	background-color: #999999;
+	height: auto;
+}
+footer p {
+	font-size: 15px;
+	color: #f2eeee;
+	text-align: center;
+	height: 120px;
+	line-height: 100px;
+}
+footer p img {
+	margin-top: 30px;
+	width: 100px;
+	height: 100px;
+}
+@media only screen and (max-width:1150px){
+	.container {
+		margin-top: 85px;
+	}
+	.pc_header {
+		height: 50px;
+		line-height: 50px;
+	}
+	.header-top{
+		padding: 0px 10px;
+	}
+	.header {
+		height: 50px;
+		margin: 0 10px;
+	}
+	
+	.content1Bg {
+		display: none;
+	}
+	
+	.content3BgL,.content3BgR {
+		opacity: 0.2;
+	}
+	
+	.logo {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.header_nav {
+		display: none;
+	}
+	
+	.phone_nav {
+		display: none;
+		width: 100%;
+		height: auto;
+		padding-bottom: 20px;
+		background: #272626;
+	}
+	
+	.phoneMenu {
+		display: block;
+		width: 40px;
+		height: 40px;
+		position:absolute;
+		right:0px;
+		top:35px;
+		margin: 5px 0px;
+	}
+	.section .content:first-child {
+		margin-top: 85px;
+	}
+	footer {
+		background-color: #999999;
+		height: auto;
+	}
+	footer p {
+		font-size: 12px;
+		height: 60px;
+		line-height: 60px;
+	}
+	footer p img {
+		margin-top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+}
+@media only screen and (max-width:767px) {
+	.x1 {
+	    width: 2.5rem;
+	}
+	.container {
+		margin-top: 85px;
+	}
+	.btn p {
+		height: 4.5rem;
+		line-height: 4.5rem;
+		font-size: 1.6rem;
+	}
+
+	.container .header-tit span.fl {
+		font-size: 1.4rem;
+	}
+	.container .header-tit span.fr {
+		font-size: 1.3rem;
+	}
+	.container .header-tit span.fr img {
+		width: 20px;
+	}
+	.container .header-tit {
+		height: 4.5rem;
+		line-height: 4.5rem;
+		font-size: 1.8rem;
+	}
+	.btn p {
+		width: 80%;
+	}
+	.container .header-tit span.fr img {
+	    top: 26%;
+	}
+
+	
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>认购</title>
+		<meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0, maximum-scale=1.0 user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="stylesheet" type="text/css" href="css/user.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+		<style>
+			 #payment-list p { line-height: 5rem; color: #666666; text-align: center; font-size: 2.2rem; }
+			 #payment-list label,#payment-list input { font-size: 2.2rem; color: #666666; text-align: center; }
+        	 #payment-list p span { background-color: #065fc5; color: #ffffff; text-align: center; font-size: 2rem; padding: 5px 25px; border: 1px solid #F0F0F0; border-radius: 0.5rem;}
+			.details_white {
+				display: none;
+				position: absolute;
+				top: 25%;
+				left: 35%;
+				width: 30%;
+				background-color: white;
+				z-index:1002;
+				overflow: auto;
+				border: 1px solid #F0F0F0;
+				border-radius: 5px;
+			}
+			.black_overlay {
+			    display: none;
+			    position: absolute;
+			    top: 8%;
+			    left: 0%;
+			    width: 100%;
+			    height: 100%;
+			    background-color: black;
+			    z-index: 1001;
+			    -moz-opacity: 0.8;
+			    opacity: .80;
+			    filter: alpha(opacity=80);
+			}
+			@media only screen and (max-width:768px) {
+				.details_white {
+					width: 50%;
+					left: 25%;
+				}
+				.black_overlay {
+				    top: 8%;
+				}
+			}
+			@media only screen and (max-width:767px) {
+				.details_white {
+					width: 70%;
+					left: 15%;
+				}
+				#payment-list p {
+					font-size: 1.8rem;
+				}
+				#payment-list label,#payment-list input {
+					font-size: 1.8rem;
+				}
+				.black_overlay {
+				    top: 11%;
+				}
+			}
+		</style>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//弹出隐藏层
+			function ShowDiv(show_div,bg_div){
+			document.getElementById(show_div).style.display='block';
+			document.getElementById(bg_div).style.display='block' ;
+			var bgdiv = document.getElementById(bg_div);
+			bgdiv.style.width = document.body.scrollWidth;
+			// bgdiv.style.height = $(document).height();
+			$("#"+bg_div).height($(document).height());
+			};
+			//关闭弹出层
+			function CloseDiv(show_div,bg_div)
+			{
+			document.getElementById(show_div).style.display='none';
+			document.getElementById(bg_div).style.display='none';
+			};
+		</script>
+	</head>
+	<body>
+		<div style="position: fixed; top: 0; z-index: 100; width: 100%;">
+			<div class="header-top clearfix">
+				<div class="left fl">欢迎进入:ZZ网数字化交易所</div>
+				<div class="right fr"><a href="login.html">登录</a><a href="javascript:void(0)"> | </a><a href="register.html">注册</a></div>
+			</div>
+			<div class="pc_header">
+				<div class="header">
+					<img class="logo" src="images/logo.png">
+					<div class="header_nav">
+						<span>
+							<a href="#" class="select">token公募</a>
+							<a href="#skip1">token融资计划</a>
+							<a href="#skip2">关于我们</a>
+							<a href="#skip3">交易所优势</a>
+							<a href="#skip4">代币介绍</a>
+							<a href="#">白皮书</a>
+						</span>
+						<a href="javaScript:;" class="change cg-cn">中英切换</a>
+					</div>
+					<img class="phoneMenu" src="images/menuPhone.png">
+				</div>
+			</div>
+			<div class="phone_nav" style="display: none;">
+				<span>
+					<a href="#" class="select">token公募</a>
+					<a href="#skip1">token融资计划</a>
+					<a href="#skip2">关于我们</a>
+					<a href="#skip3">交易所优势</a>
+					<a href="#skip4">代币介绍</a>
+					<a href="#">白皮书</a>
+				</span>
+				<a href="javaScript:;" class="change cg-cn">中英切换</a>
+			</div>
+		</div>
+		<div class="section"  style="background-color: #f3f3f3;">
+			<div class="container">
+				<div class="header-tit">
+					<a href="member.html"><span class="fl">< 返回</span></a>
+					认购
+					<a href="member.html"><span class="fr"><img src="images/hy.png">会员中心</span></a>
+				</div>
+		      	<div class="swiper-container adlogo">
+			        <ul class="swiper-wrapper">
+					  		<li class="swiper-slide">
+			            <a href="#">
+			              <img src="images/banner.png" style="width: 100%;" alt=""/>
+			            </a>
+			          </li>
+			          <li class="swiper-slide">
+			            <a href="#">
+			              <img src="images/banner.png" style="width: 100%;" alt=""/>
+			            </a>
+			          </li>
+			          <li class="swiper-slide">
+			            <a href="#">
+			              <img src="images/banner.png" style="width: 100%;" alt=""/>
+			            </a>
+			          </li>
+			          <li class="swiper-slide">
+			            <a href="">
+			              <img src="images/banner.png" style="width: 100%;" alt=""/>
+			            </a>
+			          </li>
+			        </ul>
+			        <div class="swiper-pagination"></div>
+		      	</div>
+				
+				<div class="activity" style="margin: 0;">
+					<div class="activity-tit">ZZ网数字化交易所</div>
+					<div class="activity-pro">
+						<p class="time">时间：2018-05-20 至 2018-05-31</p>
+						<div class="progress">
+							<div class="progress-top">
+								<span>65%</span>
+							</div>
+						</div>
+						<a href="#" class="rg-btn" onclick="ShowDiv('MyDiv','fade')"><span>认购</span></a>
+					</div>
+					<div class="pro-status">
+						<li><span>比例：</span>1eth : 9000 zzb</li>
+						<li><span>总量：</span>5eth</li>
+						<li><span>已售出：</span>8000zzb </li>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="activity-con">
+					<div class="con-tit">认购须知</div>
+					<div class="sub-con">
+						<p>目前市场上有很多数字货币交易平台，各家平台多种多样，很多平台对代币严格把控远远不够，以至于很多空气币，传销币泛滥上线，因此，数字货币交 易市场需要一个安全,稳定，可信，国际领先型数字交易平台。在数字货币发展的火热时期，如何能够让用户选择一家安全、稳定，可信的交易平台，提供 多元化的操作场景，才是数字交易行业关键所需。</p>
+						<p>ZZ网数字化交易所的成立，旨在于创建一个安全,稳定，可信，国际领先型数字交易平台安更方便快捷， 高效的为数字加密资产客户提供多元化的操作场景。</p>
+						<p style="color: #333333; text-indent: 0rem; margin-top: 3rem;">代币介绍 : </p>
+						<p style="text-indent: 0rem;">ZZ网平台推行的代币为ZZBCoin，简称“ZZB币”，是数字资产交易平台ZZ网数字化交易所官方发行的平台数字资产。
+ZZB发行总量恒定为10亿个，且保证永不增发。ZZB币是基于以太坊Ethereum发行的去中心化的区块链数字资产，它 是基于以太坊区块链的ERC2.0标准代币。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fade" class="black_overlay">
+		</div>
+		<div id="MyDiv" class="details_white">
+	  		<ul id="payment-list" style="padding: 5% 8% 8% 8%;">
+	  	        <p>比例 : 1eth=9000zzb</p>
+	  	        <p style="margin: 10% 0;"><label>数量 : </label><input type="text" size="8" style="border-bottom: 1px solid #cccccc;" /><label style="color: #999999;">eth</label></p>
+	  	        <p><span onclick="CloseDiv('MyDiv','fade')">确定</span></p>
+	 	 	</ul>
+		</div>
+		<footer>
+			<p><img src="images/logo.png"></p>
+			<p>ZZ网数字化交易所   版权所有 &copy; 2009-2018 豫ICP备17028148号</p>
+		</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/swiper-3.3.1.jquery.min.js"></script>
+	<script type="text/javascript" src="js/jk-m.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.header_nav span').on('click','a',function(){
+				var obj = $(this);
+				obj.addClass('select').siblings().removeClass('select');
+			})
+		});
+	</script>
+</body>
+</html>

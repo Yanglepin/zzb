@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>会员中心</title>
+		<meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0, maximum-scale=1.0 user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="stylesheet" type="text/css" href="css/user.css">
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div style="position: fixed; top: 0; z-index: 100; width: 100%;">
+			<div class="header-top clearfix">
+				<div class="left fl">欢迎进入:ZZ网数字化交易所</div>
+				<div class="right fr"><a href="login.html">登录</a><a href="javascript:void(0)"> | </a><a href="register.html">注册</a></div>
+			</div>
+			<div class="pc_header">
+				<div class="header">
+					<img class="logo" src="images/logo.png">
+					<div class="header_nav">
+						<span>
+							<a href="#" class="select">token公募</a>
+							<a href="#skip1">token融资计划</a>
+							<a href="#skip2">关于我们</a>
+							<a href="#skip3">交易所优势</a>
+							<a href="#skip4">代币介绍</a>
+							<a href="#">白皮书</a>
+						</span>
+						<a href="javaScript:;" class="change cg-cn">中英切换</a>
+					</div>
+					<img class="phoneMenu" src="images/menuPhone.png">
+				</div>
+			</div>
+			<div class="phone_nav" style="display: none;">
+				<span>
+					<a href="index.html" class="select">token公募</a>
+					<a href="index.html#skip1">token融资计划</a>
+					<a href="index.html#skip2">关于我们</a>
+					<a href="index.html#skip3">交易所优势</a>
+					<a href="index.html#skip4">代币介绍</a>
+					<a href="index.html">白皮书</a>
+				</span>
+				<a href="javaScript:;" class="change cg-cn">中英切换</a>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="member-bg">
+					<div class="user fl"><img src="images/logo.png"></div>
+					<div class="tel fl">15538156896</div>
+					<a href="myInfo.html"><div class="member_icon fr"><img src="images/arrow1.png"></div></a>
+					<div class="clear"></div>
+				</div>
+				<div class="member-list">
+					<ul>
+						<a href="activity.html"><li class="clearfix"><img src="images/hy1.png" class="x1">我的 ZZB<span class="fr">></span></li></a>
+						<div class="list-status">
+							<li class="fl">
+								<p class="status1">可用</p>
+								<p class="status2">1234</p>
+								<a href="cash.html"><p class="statua-btn">提币</p></a>
+							</li>
+							<li class="fl">
+								<p class="status1">冻结</p>
+								<p class="status2">100</p>
+								<a href="change_cash.html"><p class="statua-btn">转币</p></a>
+							</li>
+							<li class="fl">
+								<p class="status1">已提</p>
+								<p class="status2">50</p>
+								<a href="cash.html"><p class="statua-btn">明细</p></a>
+							</li>
+							<div class="clear"></div>
+						</div>
+						<li class="clearfix" style="border-top: 1px solid #cccccc;"><img src="images/hy2.png" class="x1">我的ETH<span class="fr re-num" style="color: #f10738;">56565656<a href="recharge.html">充值</a></span></li>
+						<a href="subscription.html"><li class="clearfix"><img src="images/hy3.png" class="x1">认购 <span class="fr">></span></li></a>
+						<a href="subscription_jl.html"><li class="clearfix"><img src="images/hy4.png" class="x1">认购记录<span class="fr">></span></li></a>
+						<a href="alter_pwd.html"><li class="clearfix"><img src="images/hy5.png" class="x1">修改支付密码<span class="fr">></span></li></a>
+						<a href="back_paypwd.html"><li class="clearfix"><img src="images/hy6.png" class="x1">找回支付密码<span class="fr">></span></li></a>
+					</ul>
+				</div>
+				<div class="btn">
+					<a href=""><p>退出登录</p></a>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<p><img src="images/logo.png"></p>
+			<p>ZZ网数字化交易所   版权所有 &copy; 2009-2018 豫ICP备17028148号</p>
+		</footer>
+	
+	<script type="text/javascript">
+		$(function(){
+			$('.header_nav span').on('click','a',function(){
+				var obj = $(this);
+				obj.addClass('select').siblings().removeClass('select');
+			})
+		});
+	</script>
+</body>
+</html>

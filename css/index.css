@@ -1,0 +1,117 @@
+
+.section{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.section .content:first-child {
+		margin-top: 125px;
+	}
+.section .content .section-left {
+	width: 47%;
+	box-sizing: border-box;
+}
+.section .content .section-right {
+	width: 53%;
+	box-sizing: border-box;
+}
+
+.section .content .section-left {
+	padding: 8% 5% ;
+}
+.section .content .section-left ul:nth-child(2n){
+	border-left: 1px solid #6c6c6c;
+	border-right: 1px solid #6c6c6c;
+	padding: 0px 5%;
+}
+.section .content .section-left ul{
+	margin-right: 4%;
+	margin-bottom: 5%;
+}
+.section .content .section-left ul li:first-child {
+	color: #ffffff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.section .content .section-left ul li:last-child {
+	color: #01a293;
+	font-size: 25px;
+}
+.section .content .section-left p.time {
+	font-size: 20px;
+	color: #999999;
+}
+.section .content .section-left .progress {
+	/*width: 715px;*/
+	height: 60px;
+	line-height: 60px;
+	margin-top: 20px;
+	background-color: #065fc5;
+	border-radius: 5px;
+}
+.section .content .section-left .progress-top {
+	width: 95%;
+	height: 100%;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #01a293;
+}
+.section .content .section-left .progress-top span {
+	font-size: 25px;
+	color: #e6e5e5;
+}
+.section .content .section-left .left-b {
+	margin-top: 200px;
+}
+.section .content .section-left .left-b a {
+	height: 60px;
+	line-height: 60px;
+	font-size: 15px;
+	color: #e9e7e7;
+	margin-right: 30px;
+}
+.section .content .section-left .rg-btn {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: #d6d2d2;
+	width: 200px;
+	border-radius: 5px;
+	background-color: #065fc5;
+}
+.section .content .section-right {
+	padding: 150px 100px;
+}
+.section .content .section-right img{
+	width: 90%;
+}
+.section .content .section-left .title {
+	height: 50px;
+	line-height: 40px;
+	font-size: 25px;
+	color: #272626;
+	margin-top: 90px;
+	border-bottom: 1px solid #494949;
+}
+.section .content .section-left p{
+	color: #666666;
+	line-height: 35px;
+	margin-top: 30px;
+}
+.section .content .section-left ul.super-list {
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	border: none;
+}
+.section .content .section-left ul.super-list li {
+	color: #666666;
+	line-height: 35px;
+	font-size: 16px;
+	margin: 0;
+}
+.section .content .section-left p span {
+	display: block; 
+	font-size: 20px;
+}
+

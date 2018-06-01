@@ -1,0 +1,103 @@
+
+@media only screen and (max-width:1150px){
+	
+	.section .content .section-right,.section .content5 .section-right {
+		display: none;
+	}
+	.section .content .section-left,.section .content5 .section-left {
+		width: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.section .content .section-left ul li:last-child {
+		font-size: 18px;
+	}
+	.section .content .section-left .left-b {
+		margin-top: 80px;
+	}
+	.section .content .section-left {
+		padding: 50px;
+	}
+	.section .content .section-left .title {
+		margin-top: 0px;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+
+}
+
+
+@media only screen and (max-width:767px) {
+.section .content .section-left ul{
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+.section .content .section-left ul li:first-child {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.section .content .section-left ul:nth-child(2n){
+	padding: 0px 8%;
+}
+.section .content .section-left ul li:last-child {
+	font-size: 14px;
+}
+.section .content .section-left p{
+	line-height: 25px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.section .content .section-left .title {
+	height: 40px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0px;
+
+}
+.section .content .section-left ul.super-list {
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	border: none;
+}
+.section .content .section-left ul.super-list li {
+	line-height: 25px;
+	font-size: 14px;
+	margin: 0;
+}
+.section .content .section-left p span {
+	font-size: 16px;
+}
+.section .content .section-left p.time {
+	font-size: 16px;
+}
+.section .content .section-left .progress {
+	/*width: 715px;*/
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+.section .content .section-left .rg-btn {
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	width: 150px;
+}
+.section .content .section-left .progress-top span {
+	font-size: 20px;
+}
+.section .content .section-left .left-b {
+	margin-bottom: 20px;
+}
+.section .content .section-left .left-b a {
+	height: 40px;
+	line-height: 40px;
+}
+.section .content .section-left {
+	padding: 15px 15px 0px 15px;
+}
+
+
+}

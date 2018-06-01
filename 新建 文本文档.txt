@@ -1,0 +1,14 @@
+首页 index.html
+会员中心 member.html
+个人信息 myInfo.html
+提币  cash.html
+转币 change_cash.html
+充值 rechange.html
+活动 activity.html
+认购 subscription.html
+认购记录 subscription_jl.html
+修改密码 alter_pwd.html
+支付密码找回 back_pwd.html
+登录 login.html
+忘记密码 forget_pwd.html
+注册 register.html
